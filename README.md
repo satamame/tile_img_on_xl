@@ -7,6 +7,14 @@ This program slices a picture into small pieces and tile them on an Excel sheet.
 - For Windows only.
 - Generally speaking, adding a large image on an Excel sheet is not a good idea, but it can't be a reason to allow reducing the resolution automatically.
 
+## Environment
+
+This program is confirmed working in below environment.
+
+- Windows 10 (2004)
+- Python 3.8
+- Microsoft Excel 2016
+
 ## Setup
 
 In the "tile_img_on_xl" directory, setup virtual environment.
