@@ -169,7 +169,7 @@ def main(img_path):
     workbook = tile_imgs_on_xl(img_paths, counts)
 
     # 設定によりグループ化する
-    if conf.grouping:
+    if conf.grouping and len(rects) > 1:
         sheet = workbook.ActiveSheet
         shape_count = len(sheet.Shapes)
         shp_names = []

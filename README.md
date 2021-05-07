@@ -43,10 +43,12 @@ In "conf.py", you can change below variables.
     - Relative size to the original size that Excel defines.  
     "Original size" depends on Excel's "pixels per point" definition.
 - `grouping`
-    - Whether to group the pieces after tiling on the sheet.
+    - Whether to group the pieces after tiling on the sheet.  
+    If the image wasn't big enough to slice, it isn't grouped regardless of this setting.
 
 ## How to use
 
 1. Open an Excel Workbook, select a Cell which you want to add a big picture.
 1. Drag and drop the big picture file to "tile_img_on_xl.bat".
-3. That's it. It slices the picture into pieces and tile them on the sheet, then group them if `grouping` is `True`.
+3. That's it. It slices the picture into pieces and tile them on the sheet, then group them if `grouping` is `True`.  
+In case the original image wasn't big enough, it isn't sliced or grouped.
