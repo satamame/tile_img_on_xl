@@ -27,8 +27,6 @@
     上記の手順では、PyPI から [pywin32](https://pypi.org/project/pywin32/) をインストールしますが、環境によっては GitHub からインストーラをダウンロードする必要があるかも知れません。詳しくは [Release 300 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b300) を御覧ください。
 1. conf_sample.py をコピーして conf.py にリネームします。
 
-
-
 ## 設定
 
 conf.py を編集して以下の設定ができます。
