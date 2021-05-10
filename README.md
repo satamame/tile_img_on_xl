@@ -17,17 +17,15 @@ This program is confirmed working in below environment.
 
 ## Setup
 
-In the "tile_img_on_xl" directory, setup virtual environment.
-
-```
-> python -m venv .venv
-> .venv\Scripts\activate
-(.venv) > pip install -r requirements.txt
-```
-
-### notes
-
-The above procedure installs [pywin32](https://pypi.org/project/pywin32/) via PyPI. However, you might have to download the installer via GitHub. It depends on your environment. See [Release 300 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b300) for details.
+1. In the "tile_img_on_xl" directory, setup virtual environment.
+    ```
+    > python -m venv .venv
+    > .venv\Scripts\activate
+    (.venv) > pip install -r requirements.txt
+    ```
+    **notes**  
+    The above procedure installs [pywin32](https://pypi.org/project/pywin32/) via PyPI. However, you might have to download the installer via GitHub. It depends on your environment. See [Release 300 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b300) for details.
+1. Save a copy of conf_sample.py as conf.py.
 
 ## Configuration
 
