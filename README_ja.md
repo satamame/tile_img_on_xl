@@ -12,7 +12,7 @@
 以下の環境で動作確認済みです。
 
 - Windows 10 (2004)
-- Python 3.8
+- Python 3.12
 - Microsoft Excel 2016
 
 ## 準備
@@ -24,7 +24,7 @@
     (.venv) > pip install -r requirements.txt
     ```
     **注意**  
-    上記の手順では、PyPI から [pywin32](https://pypi.org/project/pywin32/) をインストールしますが、環境によっては GitHub からインストーラをダウンロードする必要があるかも知れません。詳しくは [Release 300 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b300) を御覧ください。
+    上記の手順では、PyPI から [pywin32](https://pypi.org/project/pywin32/) をインストールしますが、環境によっては GitHub からインストーラをダウンロードする必要があるかも知れません。詳しくは [Release 306 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b306) を御覧ください。
 1. conf_sample.py をコピーして conf.py にリネームします。
 
 ## 設定
