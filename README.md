@@ -12,7 +12,7 @@ This program slices a picture into small pieces and tile them on an Excel sheet.
 This program is confirmed working in below environment.
 
 - Windows 10 (2004)
-- Python 3.8
+- Python 3.12
 - Microsoft Excel 2016
 
 ## Setup
@@ -24,7 +24,7 @@ This program is confirmed working in below environment.
     (.venv) > pip install -r requirements.txt
     ```
     **notes**  
-    The above procedure installs [pywin32](https://pypi.org/project/pywin32/) via PyPI. However, you might have to download the installer via GitHub. It depends on your environment. See [Release 300 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b300) for details.
+    The above procedure installs [pywin32](https://pypi.org/project/pywin32/) via PyPI. However, you might have to download the installer via GitHub. It depends on your environment. See [Release 306 - GitHub](https://github.com/mhammond/pywin32/releases/tag/b306) for details.
 1. Save a copy of conf_sample.py as conf.py.
 
 ## Configuration
